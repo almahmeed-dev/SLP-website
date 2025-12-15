@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - SwingLab Pro</title>
+    <style>
+        :root {
+            --primary: #00FF7F;
+            --bg: #0a0a0a;
+            --card: #1a1a1a;
+            --muted: #aaa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: #fff;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #333;
+        }
+
+        h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--primary);
+            margin: 25px 0 12px;
+            font-size: 1.2rem;
+        }
+
+        h3 {
+            color: #fff;
+            margin: 15px 0 8px;
+        }
+
+        p,
+        li {
+            color: var(--muted);
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        a {
+            color: var(--primary);
+        }
+
+        .faq {
+            background: var(--card);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 12px 0;
+        }
+
+        .faq h3 {
+            margin-top: 0;
+        }
+
+        .contact {
+            background: var(--card);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .contact a {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--bg);
+            padding: 10px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 30px;
+            color: var(--primary);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Support</h1>
+            <p style="color: var(--muted);">Get help with SwingLab Pro</p>
+        </header>
+
+        <h2>FAQ</h2>
+
+        <div class="faq">
+            <h3>Which Apple Watch models work?</h3>
+            <p>Apple Watch Ultra 2, Series 9, or newer with watchOS 10+. These support the 800Hz sensors needed for
+                accurate analysis.</p>
+        </div>
+
+        <div class="faq">
+            <h3>Why HealthKit access?</h3>
+            <p>Required to create workout sessions for high-frequency sensor access. We don't read your health data.</p>
+        </div>
+
+        <div class="faq">
+            <h3>What is Test Mode?</h3>
+            <p>Uses simulated data to demo the app without swinging.</p>
+        </div>
+
+        <div class="faq">
+            <h3>How is tempo calculated?</h3>
+            <p>Backswing time ÷ downswing time. Golf ideal: 3:1. Tennis: 2:1. Baseball: 2.5:1.</p>
+        </div>
+
+        <div class="faq">
+            <h3>"Motion Access Required"?</h3>
+            <p>Go to Watch app → Settings → Privacy → Motion & Fitness. Enable for SwingLab Pro.</p>
+        </div>
+
+        <div class="contact">
+            <p>Need more help?</p>
+            <a href="mailto:support@swinglabpro.app">Email Support</a>
+        </div>
+
+        <a href="index.html" class="back">← Back to Home</a>
+    </div>
+</body>
+
+</html>
